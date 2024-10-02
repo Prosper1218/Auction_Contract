@@ -44,4 +44,5 @@ fn test_cannot_increase_balance_with_zero_value() {
             assert(*panic_data.at(0) == 'Amount cannot be 0', *panic_data.at(0));
         }
     };
+
 }
